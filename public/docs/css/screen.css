@@ -1,0 +1,70 @@
+/* Colours */
+
+body, a { color: #222; }
+a { border-bottom: 1px solid #ccc; }
+em { color: #999; }
+
+/* Typography */
+
+body { font-family: "courier new", courier, "Andale Mono"; line-height: 1.3; }
+ul li, p, em { font-size: 11px; font-style: normal; }
+h1, h2 { font-size: 11px; font-weight: normal; }
+a { text-decoration: none; }
+
+/* Layout */
+
+body { padding: 10px 0px 40px; text-align: center; }
+div#container { margin: 0px auto; width: 890px; padding: 5px 20px; text-align: left; /*background: url('/images/grid-bg.gif') 20px 0px;*/ }
+
+.col { float: left; margin: 0px 0px 0px 20px; padding: 0px; }
+.col .col { margin: 0px; }
+
+.one { width: 60px; }
+.two { width: 140px; }
+.three { width: 220px; }
+.four { width: 300px; }
+.five { width: 380px; }
+.six { width: 460px; }
+.seven { width: 540px; }
+.eight { width: 620px; }
+.nine { width: 700px; }
+.ten { width: 780px; }
+.eleven { width: 860px; }
+.twelve { width: 940px; }
+
+p, h2 { margin: 0px 0px 5px; }
+
+hr { display: block; clear: both; margin: 0px 0px 45px; padding: 0px; height: 0px; overflow: hidden; visibility: hidden; }
+.col hr { margin: 0px 0px 15px; }
+
+em.three { margin: 0px 0px 0px 0px; }
+
+div#navigation { margin: -30px 0px 0px 20px; }
+div#navigation ul { list-style: none; padding: 0px 20px 0px 0px; margin: 0px; }
+div#navigation ul li { margin: 0px 0px 8px; }
+div#navigation ul li.selected { color: #999; text-indent: -1.2em; }
+div#navigation ul li.selected a { border: 0px; color: #999; border-bottom: 1px solid #ccc; cursor: default; }
+div#navigation ul li em { display: block; margin: 30px 0px 0px; }
+
+div#content { margin: 20px 0px 0px 20px; }
+
+div#media { clear: both; padding: 30px 0px 0px 60px; }
+div.media { margin: 0px 0px 10px; }
+div.home div#media { padding: 0px 0px 0px 60px; }
+div.description div#media { padding: 0px 0px 0px 0px; }
+p#gallery-count, div#gallery-navigation { display: none; }
+
+div#image-wrapper { overflow: hidden; width: 560px; }
+div#image-wrapper div#image-holder { width: 100000000px; }
+div#image-wrapper div#image-holder div.image { float: left; width: 560px; }
+
+p#footer { margin: 0px 0px 0px 320px; display: inline; }
+p#footer em { display: block; }
+
+a.atom-rss { margin: 0px 0px 0px 6px; padding: 1px 2px 0px; font-size: 0.93em; letter-spacing: 0.08em; background: #ddd; }
+
+/* Javascript-enabled styles */
+body.js-enabled p#gallery-count, body.js-enabled div#gallery-navigation { display: block; }
+body.js-enabled p#project-count { display: none; }
+body.js-enabled div#media div.image { display: none; }
+body.js-enabled div#media div.image:first-child { display: block; }
