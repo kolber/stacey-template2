@@ -1,15 +1,15 @@
 # Stacey - Template 2
 
-This is the second stacey template.  
-You can see it running at <http://template2.staceyapp.com> or download it manually from <http://staceyapp.com/download-templates/>
+This is the second stacey template. Revised for Stacey v3.0.0 
+You can download it manually from <https://github.com/pbatts/stacey-template2>
 
 ## Installation
 
-Replace the `content`, `public` & `templates` folders from the default stacey installation with the folders from this repo.
+Replace the `content`, `public` & `templates` folders from the default stacey v3.0.0 installation with the folders from this repo.
 
 ## Read More
 
-See <http://staceyapp.com> for more detailed usage information.  
+See <https://github.com/kolber/stacey/wiki> for more detailed usage information.  
 Or the main stacey repo at <http://github.com/kolber/stacey>
 
 ## Copyright/License
