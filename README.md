@@ -15,7 +15,7 @@ Replace the `content`, `public` & `templates` folders from the default stacey v3
 ## Read More
 
 See <https://github.com/kolber/stacey/wiki> for more detailed usage information.  
-Or the main stacey repo at <http://github.com/kolber/stacey>
+Or the main stacey repo at <http://github.com/kolber/stacey>.
 
 ## Copyright/License
 
