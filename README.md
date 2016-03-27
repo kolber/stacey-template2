@@ -2,7 +2,7 @@
 
 This is the second stacey template. Updated to Stacey v3.0.0
 
-You can download it manually from <https://github.com/pbatts/stacey-template2>
+You can download it manually from <https://github.com/pbatts/stacey-template2>.
 
 ## Demo
 
@@ -19,4 +19,4 @@ Or the main stacey repo at <http://github.com/kolber/stacey>.
 
 ## Copyright/License
 
-Copyright (c) 2014 Paul Batts. See `LICENSE` for details.
+Copyright (c) 2014-2016 Paul Batts. See `LICENSE` for details.
