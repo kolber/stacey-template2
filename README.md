@@ -1,8 +1,12 @@
 # Stacey - Template2 v3.0.0
 
 This is the second stacey template. Updated to Stacey v3.0.0.
+
 You can download it manually from <https://github.com/pbatts/stacey-template2>
-See Demo at <http://guitdev.com/stacey-template2>
+
+## Demo
+
+<http://guitdev.com/stacey-template2>
 
 ## Installation
 
