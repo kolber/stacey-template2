@@ -20,9 +20,17 @@
         <p class="date col one">&para;</p>
         <div class="description col six">
           <h2 class="col six"><a href="{{ page.root_path }}">{{ page.title }}</a></h2>
-          {% include 'partials/assets/images.html' %}
-          {{ page.content }}
-          {% include 'partials/assets/pdfs.html' %}
+          <form class="logo-bottom three" action="/search">
+            <input type="text" value="{{ page.query.q }}" name="q" id="search-field" autocomplete="off" spellcheck="false" />
+          </form>
+          {% set results = search(page.query.q) %}
+          {% for result in results %}
+            <a href="{{ result.url }}">
+              <h2>{{ result.title }}</h2>
+              <p>{{ result.search_match }}</p>
+            </a>
+            <hr>
+          {% endfor %}
         </div>
       </div>
       <hr>

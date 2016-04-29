@@ -1,12 +1,8 @@
 <div id="navigation" class="col three">
 <ul>
-foreach $root do
-  <li><em>@title</em></li>
-  foreach $children do
-  <li>
-  	<a href="@url">@title</a>
-  </li>
-  endforeach
-endforeach
+{% for child in page.root %}
+    <li><em>{{ child.title }}</em></li>
+    <em>{% include 'partials/navigation/children.html' with { 'page' : child } %}</em>
+{% endfor %}
 </ul>
 </div>
